@@ -1,0 +1,265 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #050608;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.cabecalho {
+    height: 75px;
+    padding: 0 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #20242c;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1677ff;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    color: #999;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.botao-menu {
+    padding: 10px 15px;
+    border: 1px solid #292d35;
+    border-radius: 8px;
+}
+
+.cybex{
+    color: #1677ff;
+}
+
+.etiqueta{
+    color: #1677ff;
+    font-size: 30px;
+}
+
+.inicio {
+    min-height: 600px;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inicio-texto {
+    max-width: 800px;
+}
+
+.inicio h1 {
+    font-size: 90px;
+    margin-bottom: 25px;
+}
+
+.botoes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botao,
+.botao-secundario {
+    padding: 13px 20px;
+    border-radius: 9px;
+    display: inline-block;
+}
+
+.botao-secundario {
+    border: 1px solid #292d35;
+    color: #aaa;
+}
+
+.secao {
+    max-width: 1100px;
+    margin: auto;
+    padding: 120px 25px;
+
+}
+
+.titulo-secao {
+    max-width: 650px;
+    margin-bottom: 60px;
+}
+
+.titulo-secao h2,
+.sobre h2,
+.final h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.titulo-secao h2 div,
+.sobre h2 div,
+.final h2 div {
+    color: #555;
+}
+
+.titulo-secao p,
+.sobre > p,
+.final > p {
+    color: #999;
+}
+
+.sobre {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 25px;
+    display: flex;
+    gap: 80px;
+    border-top: 1px solid #20242c;
+    border-bottom: 1px solid #20242c;
+}
+
+.planos {
+    display: flex;
+    gap: 15px;
+}
+
+.plano {
+    flex: 1;
+    padding: 30px;
+    border: 1px solid #20242c;
+    border-radius: 15px;
+    position: relative;
+}
+
+.destaque {
+    color: #1677ff;
+}
+
+.nome{
+    color: gold;
+}
+
+.plano h3 {
+    font-size: 35px;
+    margin: 15px 0;
+}
+
+.plano p {
+    color: #888;
+    font-size: 13px;
+    margin: 13px 0;
+}
+
+.plano hr {
+    border: 0;
+    border-top: 1px solid #20242c;
+    margin: 25px 0;
+}
+
+.botao-plano {
+    display: block;
+    text-align: center;
+    border: 1px solid #292d35;
+    padding: 12px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.final {
+    text-align: center;
+    padding: 140px 20px;
+    border-top: 1px solid #20242c;
+}
+
+.final > p {
+    max-width: 500px;
+    margin: 0 auto 30px;
+}
+
+.area-inscricao{
+        display: flex;
+        gap: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .coluna-form{
+        flex: 1;
+        min-width: 320px;
+        background-color: black;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px #080808;
+    }
+    .coluna-midia{
+        flex: 1;
+        min-width: 320px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .coluna-form label{
+        font-size: 14px;
+        font-weight: bold;
+        color: #1677ff;
+    }
+    .coluna-form input[type="text"],
+    .coluna-form input[type="password"],
+    .coluna-form input[type="email"],
+    .coluna-form input[type="date"],
+    .coluna-form select{
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        background-color: #080808;
+        border-radius: 5px;
+        color: aliceblue;
+        font-size: 14px;
+    }
+    .btn-enviar{
+        background-color: #0567f09e;
+        color: aliceblue;
+        border: #f7f7f7;
+        padding: 12px 24px;
+        border-radius: 6px;
+        font-weight: bold;
+    }
+    .btn-enviar:hover{
+        background-color: #062e669e;
+    }
+.titulo-textos{
+    max-width: 650px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #1677ff;
+}
+
+footer {
+    padding: 35px 6%;
+    border-top: 1px solid #20242c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #666;
+    font-size: 11px;
+}
